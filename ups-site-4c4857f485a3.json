@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ups-site",
+  "private_key_id": "4c4857f485a39f68bab7c979c5a17cb3000ceb46",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDCnkZu2QxUU4eO\nhKyj3Ro3Tx/EuTTm2+WRghv4MPlEqCQQGV9Zz9YY6gJ0x8iVn+C76EDULj9KhLjg\nkVdKXrdT4NO7Zbh31YAuYW88n1mFlqeJ8NPWH/wYbMcOKIxXh4PegAHy6ZGobdL1\n1cfw9AAbvqg5fawEtmIHj0GN/oxcQD0u7Pm2dE4TpGp6ADFwUFzJK31IoKt43WAO\nq1x7ZWAWFqfhpcAbAjvuhmoChdPqgKq4YKQk9c3mmRbQHGbDNpwUwEzxAvukmFdR\nQSevoSLis9w7csdpVszrbHu4b8u6B1+bEyUxlG09s/STpZUPnrxWWGXPPJ4EQ8lG\nMxnFrj0lAgMBAAECggEAAlariv5xrvu398bxWiC4hWyeeZsuHw4KYqa5FlDkVeZd\nVJIxep9MN81sDSIvb1jV9vwR91q86PTSUeR9M4gS1N+xO6G7xzjaCvShxQ03IqtO\nRRKPQRXuTg7Uj39+PDkFJSHNpDEZTnhPXiPc/LC55ZtzYwl3DTFx2RxoEcA6yIr5\nslAsvmR/xomI/3vxr2XFpzSthGd+tZvXb5cmQ2G/lIhxJx40p7jvwPsC88O7m6/l\nxviKulLqi9KlIHxFo3hiAZj1VHA1UvnxgJnSf8bVJV4jGY52BTFGXACLe79UzeNa\n855ScbcoJOQDLzO+2gAUeVqY0zHw7ICrq3N8tqv50QKBgQDqd8FgHFWEzc6U54Y0\nFznoZwdVO2BS4SK6E1iN+atTeRinHSho89tqhspD07CgbJVi3hiV15LhTuzMPrtZ\nPZnYIMfuG8igHYnznTkwOiQg05ZwfaeEscl8Hn7KEU+NyLHEX2NrI8qPKKeB3jPt\n34yABdG/6On582LtDKIIuIdZ3QKBgQDUfaxQHLkk7vAnfGPURuWtHe31UA0b7oI7\nilSkZhdcAPJm/Elmx7YF7rgbhzG6Q2clwxja0iJwLAJ0IrjyTI3Rxnh5r4GgjAIL\nGtAu2lFPXOEhEp6zJQIAlBIbiKD05B3oSRaYEiTvdWI+oFYqmjtd0bjQjX1ZpBvO\nXpMgR0eP6QKBgQDkzQIOWPf3BaLu2dOzZ2rh6BBW0v9XQU1TCWfj+9x9M3GkOibh\n6/2UwX4FnEEC+5L3jMWvC1PQu+UGFr1aA2vqZWrUZ5Zq8Qhai3VwI3x38CIhGe1r\n5tY4YcXWR/g64rreZzssJRwYgVKcv4orOXfwwj0BqjcQ67oAmtBP9EpYnQKBgQCR\nfEYpR7E/51SIRHN5WN1SLSbKifefwyppp6mSMdAWjxNojZ2YAG7RGwP03RigBhwu\nT6jJ0YwArzEy4L8uLln/YdsEvbSL/rA7eC1HlvSK2PXPFheQYms/iCHpth817KXJ\nb5lHn0yoov8UD+VPH/A7qSbXq7hCUsky/6/OLt+BWQKBgQC/LVbVHc2hmQyYkoQI\nQ7nSa903AWyBqAU62TeznxWYCRoZrw1ywR+ydDPbZd9FPPTwVQv8dOVLqFZqDhwm\nva37ckZvBZGmBGIl4x3WXKQv/4+LTJhtcsOkdpY7rMfm8AS9cNgv6PIwP4pHrdeJ\njEn3uh92UDKHCba1mNeoofRqsA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ups-admin@ups-site.iam.gserviceaccount.com",
+  "client_id": "101127279570222748301",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ups-admin%40ups-site.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cloud Photo Storage</title>
+</head>
+<body>
+  <h1>User Login</h1>
+  <input id="username" placeholder="Username">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+
+  <h2>Upload Photo</h2>
+  <input type="file" id="photo">
+  <button onclick="uploadPhoto()">Upload</button>
+
+  <script>
+    let token = '';
+    async function login() {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      const res = await fetch('/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+      const data = await res.json();
+      token = data.token;
+      alert('Logged in!');
+    }
+
+    async function uploadPhoto() {
+      const file = document.getElementById('photo').files[0];
+      const formData = new FormData();
+      formData.append('photo', file);
+      await fetch('/upload/photo', {
+        method: 'POST',
+        headers: { 'Authorization': token },
+        body: formData
+      });
+      alert('Photo uploaded!');
+    }
+  </script>
+</body>
+</html>
