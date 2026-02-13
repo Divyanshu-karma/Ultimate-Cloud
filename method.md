@@ -62,8 +62,7 @@ Convert grounded legal issue identification into structured risk categories usin
 - `risk_engine.py`
 
 #### Design Principle
-Risk classification is rule-based, not model-based. 
-The LLM:
+Risk classification is rule-based, not model-based. The LLM:
 e.g.,
 does issue identification and cites sections,
 the system then assigns risk categories deterministically.
@@ -89,17 +88,12 @@ system optionally validates that cited sections exist within retrieved data to p
 risk assignment depends solely on section prefix and retrieval integrity—no probabilistic or subjective factors involved—only retrieved sections may be cited with version isolation enforced and minimum similarity threshold ensuring relevance;
 the retrieval integrity layer guarantees all decisions originate from controlled corpus without cross-version contamination or hallucinated authority;
 the end-to-end flow involves input normalization -> embedding -> vector retrieval -> similarity filtering -> grounded issue extraction -> regex parsing -> longest-prefix mapping -> report generation;
-
-## Legal Defensibility Properties
-This framework ensures:
-•   Every issue is grounded in retrieved TMEP text.
-•   Risk is assigned deterministically.
-•	No hallucinated citations are classified.
-•	Version control is enforced.
-•	Outputs are reproducible.
-•	LLM reasoning is separated from risk categorization.
-•	A clear disclaimer is included.
-## Conclusion
+it ensures each step is reproducible and legally defensible with properties like grounding in retrieved text,
+determinism,
+vigilance against hallucinations,
+enforced version control,
+and separation of reasoning from categorization processes; 
+and includes clear disclaimers for transparency.
 'the overall framework is retrieval-grounded,
 deterministic,
 prefix-based,
